@@ -1,0 +1,59 @@
+Game Title: Dominion
+(Game based on Sword Rush from Double Click)
+(Beta and Test will be made on Unity)
+
+Genre: FPS/Competitive
+
+Control:
+    Holding left-click while dragging the mouse will cause the sword to follow the mouse's movement depending on the 
+    hero's movement speed. Moving the mouse normally causes the user's view to change. Holding right-click while dragging 
+    the mouse triggers a guard, its time is based on your hero's defense and won't block all the damage. 
+    While blocking you cannot attack, there is a short cooldown when shifting between guard and attack. 
+    If your guard breaks you will be stunned for a short-while. During this time you cannot attack, use skills/ultimates, 
+    or guard. Quicly double-tapping any of the movement keys causes you to dodge, a dodge is diving out of the way making you 
+    harder to hit. After dodging there is a short time before you can attack or use skills, however you can still block.
+    WASD is used for movement. Space-bar is jump(hero's have different jump heights.) Left-Shift is default crouch/slide. 
+    Left-control is default sprint. All key-binds are completely customizable.
+
+
+Game Play Description:
+    5v5 Sword Combat using specific heroes with roles. Tank, Dps, Healer, and Support.
+    Each hero has a different range, weapon, abilities, and ultimate. (Along with some special passive abilities as well)
+    The only way to win in a standard game is killing the other team. Other gamemodes, like Capture-The-Flag, 
+    objective capture, and Stronghold-Assault have their own ways of winning. Capture the flag as the name implies is 
+    to capture the flag and return it to your base twice. Flags are dropped when the holder dies or is stunned.
+    Once dropped if not picked up by the opposing team Flags return to base after 10 seconds.
+    Objective Capture is also relatively simple, both teams try to keep control of a site for a designated time.
+    The more teammates on the objective the faster the countdown drops. If any number of both teams 
+    are on the site at the same time the countdown is stopped. Stronghold Assault is where one team tries to escort a 
+    bomb along a track to the defending team's base while the defending tries to stop them. The game lasts for 5 minutes
+    resetting the timer if the bomb reaches a check-point. With all the hero's you can make virtually any strategy.
+    Utilize the different team compositions to gain Dominion and win the game.
+
+    DPS: The dps is meant to deal large amounts of damage. DPS skills are meant for setting up combos or AoE damage. 
+    DPS Ultimate is meant for a special attack which only works if the initial strike hits the target. 
+    DPS have moderate movement speed, low support, high damage, and moderate defense. 
+
+    Tank: The tank is meant to absorb lots of damage and prevent the support and healer from dying. Tank skills increase 
+    armor/protection as well as allowing the tank to absorb the damage all the other teammates take with no choice of who.
+    (Tanks can only control the when) Tank Ultimate is meant for either a quick insta-heal or a barrier that blocks attacks.
+    Tanks have low movement speed, moderate support, moderate damage, and high defense.
+
+    Healer: The healer is meant to heal the other members of the team focusing on ensuring the Tank & DPS don't die. 
+    Healer skills are meant to heal a team member, provide a regen buff, short-term invisibility, or short-range teleportation. 
+    Healer Ultimate is meant for reviving a teammate, healing the entire team at once, or giving lifesteal 
+    to the entire team(Each time they hit an opponent they gain HP) 
+    Healers have moderate movement speed, high support, moderate damage, and moderate-to-low defense.
+
+    Support: The support is meant to de-buff enemies, buff teammates, distract enemies, and provide constant presence. 
+    Support skills provide either attack, move-speed, small-regeneration, defense buffs, or counter-attacks of their own strength
+    as well as giving the other team debuffs like lower attack, lower defense, attack speed, move-speed, 
+    make the enemy take more damage, or stop their healing. Support Ultimate is meant for a counter-attack that 
+    reflects 2x the reflected attack damage at the target, long-range movement, temporary invulnerability, or reversing 
+    the targeted enemies attacks so they can hit their teammates or miss the support's team. 
+    Supports have moderate-to-high movement speed, high support, low damage, and low defense.
+
+
+
+
+

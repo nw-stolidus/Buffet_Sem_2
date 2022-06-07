@@ -1,0 +1,53 @@
+import random
+import discord
+import os
+from keep_alive import keep_alive
+
+client = discord.Client()
+
+my_secret = os.environ['TOKEN']
+
+@client.event
+async def on_message(message):
+  if message.author == client.user:
+    return
+
+  if message.content.startswith('I'or'i'):
+    await message.channel.send('go touch grass')
+
+  if message.content.startswith('what'or'What'or'why'or'Why'):
+    await message.channel.send('nO qUeStIoNs')
+
+  if message.content == ('mushy'):
+    await message.channel.send('WHO HAS SUMMONED ME?!')
+
+  if message.content.startswith('@'):
+    await message.channel.send('@consistent')
+
+  if message.content.startswith('imagine dragons'):
+    await message.channel.send('imagine dragon deez balls across yo face')    
+
+  if message.content.startswith('Point Time'):
+      dealer = 0
+      player = 0
+      for i in range(0,6):
+        bjd = random.randrange(2,11)
+        bjp = random.randrange(2,11)
+        dealer = dealer+bjd
+        await message.channel.send('The dealer is at '+dealer)
+        await message.channel.send('You are at '+player)
+        await message.channel.send('Do you want to draw another y/n?')
+        if message.content.startswith('y'or'Y'or'Yes'or'yes'):
+          player = player+bjp
+          await message.channel.send('You are at '+player)
+          if message.content.startswith('n'or'N'or'no'or'No'):
+            if player <= dealer:
+              await message.channel.send('You lose')
+              return
+            if player > dealer:
+              await message.channel.send('You win!')
+              return
+
+
+keep_alive()
+client.run(my_secret)

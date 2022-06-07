@@ -1,0 +1,20 @@
+import numpy as np
+from numpy import random
+
+big = input(print("Enter a size: "))
+mini = input(print("Enter the minimum value: "))
+maxi = input(print("Enter the maximum value: "))
+big = int(big)
+a = np.random.randint(mini,maxi,big)
+
+print(a)
+
+sec = a.max()
+print("The Maximum is: ", sec)
+duo = a.min()
+print("The Minimum is: ", duo)
+b = a.sum()
+avg = b/big
+print("The Average is: ", avg)
+
+

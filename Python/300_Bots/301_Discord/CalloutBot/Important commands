@@ -1,0 +1,9 @@
+- on_message(message) When anyone messages!
+
+- on_connect() When anyone connects to the server!
+
+- on_disconnect() When someone disconnects!
+
+- on_member_join() When someone joins the server!
+
+- message.author.name()  Recognizes a username

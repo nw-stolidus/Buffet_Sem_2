@@ -1,0 +1,13 @@
+import pandas as pd
+import matplotlib.pyplot as plt # import matlab plotting!
+plt.rcParams.update({'font.size': 20, 'figure.figsize': (10, 8)}) # set font and plot size to be larger
+
+birth = pd.read_csv("births.csv", index_col="Title")
+birth.columns
+birthamount = birth['births']
+birthamount.head()
+birth['Year'].plot(kind='hist', title='Year');
+birth.plot(kind='scatter', x='Year', y='Births', title='Births of Years');
+
+
+

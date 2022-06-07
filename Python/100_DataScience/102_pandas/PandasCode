@@ -1,0 +1,13 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+movies_df = pd.read_csv("IMDB-Movie-Data.csv", index_col="Title")
+movies_df.columns
+
+metascore = movies_df['Metascore']
+metascore.head()
+meta_mean = meta_mean.mean()
+movies_df['Year'].plot(kind='hist', title='Year');
+movies_df.plot(kind='scatter', x='Year', y='Metascore', title='Year vs Metascore');
+print("The mean of Metascore is :", meta_mean)
+
